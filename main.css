@@ -1,0 +1,449 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+header, article, section, footer, li
+{
+	display: block;
+}
+body:not(#name_header)
+{
+	text-align: center;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	background: -webkit-linear-gradient(top,white,#66a3ff);
+}
+#all
+{
+	background-image: url("1549635005384.png");
+	background-size: contain;
+	width: 100%;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+#wrapper:not(#name_header)
+{
+	text-align: center;
+}
+#content
+{
+	width: 100%;
+}
+/*fitting the sun*/
+#resume_sun
+{
+	text-align: center;
+	width: 150px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 15px;
+	padding-top: 58px;
+	color: #7c0400;
+	background-image: url("sun.gif");
+	background-position: center;
+	background-size: cover;
+}
+
+/*flying the plane*/
+#name_header 
+{
+	color: green;
+	width: 1080px;
+	display: -webkit-box;
+	/*-webkit-transition: -webkit-transform 10s;
+	-webkit-transform: translate(400px,0);*/
+
+	animation-name: fly;
+	animation-duration: 12s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	-webkit-transform: translate(50%, -80%);
+}
+@keyframes fly 
+{
+	from { transform: translate(0px,0px); }
+	/*50% { transform: translateX(200px); }*/
+	to { transform: translate(50%, -80%); }	
+}
+li.banner
+{
+	outline: black 2px solid;
+	border: red dashed 2px;
+	float:left;
+
+	animation-name: floating;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+li.banner:hover
+{
+	border: orange dotted 3px;
+	outline: maroon 3px solid;
+	opacity: 0.6;
+	/*create waves*/
+}
+h1
+{
+	font-color: #255129;
+	font:bold 50px Tamoha;
+}
+li.plane
+{
+	float:left;
+	background-image: url("airplane3.gif");
+	/*background-image: url("helicopter.gif");*/
+	height: 80px;
+	width: 200px;
+	padding-top: 50px;
+	padding-left: 80px;
+	-webkit-box-align:center;
+	-webkit-transform: translate(0px,-10px);
+	background-position: center;
+	background-size: cover;
+	background-position: center;
+
+	animation-name: floating;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes floating 
+{ 
+	from { transform: translate(0, 0px); } 
+	65% { transform: translate(0, 15px); } 
+	to { transform: translate(0, 0px); } 
+}
+li.plane:hover
+{
+	-webkit-transform:scale(1.3);
+}
+
+/* creating the clouds*/
+#option_clouds
+{
+	margin-top: -10px;
+	height: 30px;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+
+	animation-name: rise;
+	animation-duration: 5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: 1;
+	-webkit-transform: translateY(-250%);
+}
+@keyframes rise {
+	from { transform: translateY(0%); }
+	to { transform: translateY(-250%); }
+}
+.b{
+	display: none;
+}
+.edu
+{
+	background-image: url("cloud.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 110px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 100px;
+	-webkit-box-flex:1;
+	-webkit-border-radius: 10px;
+	-webkit-transition: -webkit-transform 1s, background 2s, width 2s, height 1s;
+
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.edu:hover
+{
+	-webkit-transform: rotate(360deg);
+	background-color: #ffff66;
+	background-image: url("");
+	border: black solid 3px;
+	padding-top: 0px;
+	width: 200px;
+	height: 250px;
+}
+.edu:hover .a
+{
+	display: none;
+}
+.edu:hover .b
+{
+	display: inline;
+}
+.skills
+{
+	background-image: url("cloud.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 110px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 100px;
+	-webkit-box-flex:1;
+	-webkit-border-radius: 10px;
+	-webkit-transition: -webkit-transform 1s, background 2s, width 2s, height 1s;
+
+	animation-name: floating;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.skills:hover
+{
+	-webkit-transform: rotate(360deg);
+	background-color: #f4ad42;
+	background-image: url("");
+	border: black solid 3px;
+	padding-top: 0px;
+	width: 200px;
+	height: 280px;
+}
+.skills:hover .a
+{
+	display: none;
+}
+.skills:hover .b
+{
+	display: inline;
+}
+.exp
+{
+	background-image: url("cloud.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 110px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 100px;
+	-webkit-box-flex:1;
+	-webkit-border-radius: 10px;
+	-webkit-transition: -webkit-transform 1s, background 2s, width 2s, height 1s;
+	animation-name: floating;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.exp:hover
+{
+	-webkit-transform: rotate(360deg);
+	background-color: #ff8080;
+	background-image: url("");
+	border: black solid 3px;
+	padding-top: 0px;
+	width: 200px;
+	height: 315px;
+}
+.exp:hover .a
+{
+	display: none;
+}
+.exp:hover .b
+{
+	display: inline;
+}
+.projects
+{
+	background-image: url("cloud.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 110px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 100px;
+	-webkit-box-flex:1;
+	-webkit-border-radius: 10px;
+	-webkit-transition: -webkit-transform 2s, background 1s, width 2s, height 1s;
+	animation-name: floating;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.projects:hover
+{
+	-webkit-transform: rotate(360deg);
+	background-color: #f48342;
+	background-image: url("");
+	border: black solid 3px;
+	padding-top: 0px;
+	width: 200px;
+	height: 265px;
+}
+.projects:hover .a
+{
+	display: none;
+}
+.projects:hover .b
+{
+	display: inline;
+}
+h3
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+ul
+{
+	color: black;
+	padding-left: 10px;
+	text-align: left;
+	list-style: disc inside;
+}
+li
+{
+	display: list-item;
+}
+hgroup
+{
+	color: white;
+	text-shadow: 1px black;
+
+}
+
+/*Return Car*/
+/*#return
+{
+	position: absolute;
+	width: 1000px;
+	height: 200px;
+	left:70%;
+	top:80%;
+}
+#back
+{
+	float: left;
+	background-image: url('thinkcloud.png');
+	background-size: cover;
+	padding-top: 15px;
+	height: 50px;
+	width: 70px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#Car
+{
+	content: url("car.png");
+	float: left;
+	width: 150px;
+	height: 100px;
+}*/
+
+/*Wolf*/
+#Drag
+{
+	position: absolute;
+	width: 1000px;
+	height: 200px;
+	left:10%;
+	top:80%;
+}
+#clkMe
+{
+	float: left;
+	background-image: url('thinkcloud.png');
+	background-size: cover;
+	padding-top: 15px;
+	height: 50px;
+	width: 70px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#fox
+{
+	content: url("fox.gif");
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+
+/*Social Tree*/
+#SocialTree
+{
+	position: absolute;
+	left: 70%;
+	top: 40%;
+	height: 350px;
+	width: 300px;
+	background-image: url("tree.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transform: translateX(500px);
+}
+button
+{
+	width: 40px;
+	height: 40px;
+}
+#linkedin
+{
+	background-image: url("in.png");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	border-radius: 20px;
+	top: 150px;
+	left: -20px;
+}
+#twitter
+{
+	background-image: url("twitter.png");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	border-radius: 20px;
+	top: 20px;
+}
+#gitHub
+{
+	background-image: url("git.png");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	border-radius: 20px;
+	top: 100px;
+	left: 65px;
+}
+#facebook
+{
+	background-image: url("fb.png");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	border-radius: 20px;
+	top: 200px;
+}
+#social
+{
+	color: white;
+	position: relative;
+	font: bold 20px Tamoha;
+	top: 30px;
+	left: -15px;
+}
+
+/*footer*/
+#copyright
+{
+	margin-top: 320px;
+	padding top: 50px;
+	color: black;
+	font: bold 15px Cursive;
+	background-image: 
+}
