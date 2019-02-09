@@ -12,14 +12,14 @@ function first()
 	tree = document.getElementById('SocialTree');
 	car = document.getElementById('Car');
 	back = document.getElementById('back');
-	// fb = document.getElementById('facebook');
-	// fb.addEventListener("click", facebook, false);
-	// tw = document.getElementById('twitter');
-	// tw.addEventListener("click", twitter, false);
-	// in = document.getElementById('linkedin');
-	// in.addEventListener("click", linkedin, false);
-	// gh = document.getElementById('gitHub');
-	// gh.addEventListener("click", gitHub, false);
+	fb = document.getElementById('facebook');
+	fb.addEventListener("click", facebook, false);
+	tw = document.getElementById('twitter');
+	tw.addEventListener("click", twitter, false);
+	linn = document.getElementById('linkedin');
+	linn.addEventListener("click", linkedin, false);
+	gh = document.getElementById('gitHub');
+	gh.addEventListener("click", gitHub, false);
 }
 function downloadNow()
 {
