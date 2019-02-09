@@ -99,7 +99,7 @@ function returning()
 }
 function facebook()
 {
-	alert("Opening Facebook");
+	// alert("Opening Facebook");
 	fburl = "https://www.facebook.com/archit.garg.77"; //facebook profilelink
 	window.open(fburl);
 }
