@@ -22,7 +22,7 @@ body:not(#name_header)
 }
 #all
 {
-	background-image: url("1549635005384.png");
+	background-image: url("img/g.png");
 	background-size: contain;
 	width: 100%;
 	background-repeat: repeat-x;
@@ -46,7 +46,7 @@ body:not(#name_header)
 	margin-top: 15px;
 	padding-top: 58px;
 	color: #7c0400;
-	background-image: url("sun.gif");
+	background-image: url("img/sun.gif");
 	background-position: center;
 	background-size: cover;
 }
@@ -98,7 +98,7 @@ h1
 li.plane
 {
 	float:left;
-	background-image: url("airplane3.gif");
+	background-image: url("img/airplane3.gif");
 	/*background-image: url("helicopter.gif");*/
 	height: 80px;
 	width: 200px;
@@ -149,7 +149,7 @@ li.plane:hover
 }
 .edu
 {
-	background-image: url("cloud.png");
+	background-image: url("img/cloud.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -186,7 +186,7 @@ li.plane:hover
 }
 .skills
 {
-	background-image: url("cloud.png");
+	background-image: url("img/cloud.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -223,7 +223,7 @@ li.plane:hover
 }
 .exp
 {
-	background-image: url("cloud.png");
+	background-image: url("img/cloud.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -259,7 +259,7 @@ li.plane:hover
 }
 .projects
 {
-	background-image: url("cloud.png");
+	background-image: url("img/cloud.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -328,7 +328,7 @@ hgroup
 #back
 {
 	float: left;
-	background-image: url('thinkcloud.png');
+	background-image: url('img/thinkcloud.png');
 	background-size: cover;
 	padding-top: 15px;
 	height: 50px;
@@ -356,7 +356,7 @@ hgroup
 #clkMe
 {
 	float: left;
-	background-image: url('thinkcloud.png');
+	background-image: url('img/thinkcloud.png');
 	background-size: cover;
 	padding-top: 15px;
 	height: 50px;
@@ -366,7 +366,7 @@ hgroup
 }
 #fox
 {
-	content: url("fox.gif");
+	content: url("img/fox.gif");
 	float: left;
 	width: 150px;
 	height: 100px;
@@ -380,7 +380,7 @@ hgroup
 	top: 40%;
 	height: 350px;
 	width: 300px;
-	background-image: url("tree.png");
+	background-image: url("img/tree.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -393,7 +393,7 @@ button
 }
 #linkedin
 {
-	background-image: url("in.png");
+	background-image: url("img/in.png");
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -403,7 +403,7 @@ button
 }
 #twitter
 {
-	background-image: url("twitter.png");
+	background-image: url("img/twitter.png");
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -412,7 +412,7 @@ button
 }
 #gitHub
 {
-	background-image: url("git.png");
+	background-image: url("img/git.png");
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -422,7 +422,7 @@ button
 }
 #facebook
 {
-	background-image: url("fb.png");
+	background-image: url("img/fb.png");
 	background-size: cover;
 	background-position: center;
 	position: relative;
