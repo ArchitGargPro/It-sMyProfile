@@ -317,32 +317,37 @@ hgroup
 }
 
 /*Return Car*/
-/*#return
+#return
 {
 	position: absolute;
-	width: 1000px;
+	width: 250px;
 	height: 200px;
-	left:70%;
-	top:80%;
+	left:50%;
+	top:70%;
+	padding-top: 30px;
 }
 #back
 {
 	float: left;
 	background-image: url('img/thinkcloud.png');
 	background-size: cover;
+	font:bold 10px Tamoha;
 	padding-top: 15px;
 	height: 50px;
 	width: 70px;
+	visibility: hidden;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 #Car
 {
-	content: url("car.png");
+	content: url("img/redCar.png");
 	float: left;
-	width: 150px;
-	height: 100px;
-}*/
+	padding-top: 40px;
+	width: 180px;
+	height: 70px;
+	-webkit-transform: translateX(800px);
+}
 
 /*Wolf*/
 #Drag
@@ -361,6 +366,7 @@ hgroup
 	padding-top: 15px;
 	height: 50px;
 	width: 70px;
+	visibility: hidden;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -370,6 +376,8 @@ hgroup
 	float: left;
 	width: 150px;
 	height: 100px;
+	padding-top: 15px;
+	-webkit-transform: translateX(-400px);
 }
 
 /*Social Tree*/
