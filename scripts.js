@@ -60,6 +60,7 @@ function readytoback()
 {
 	back.style.visibility = "visible";
 	car.addEventListener("click", returning, false);
+	document.getElementById('return').addEventListener("click", returning, false);
 }
 function bringCar()
 {
